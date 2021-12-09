@@ -15,6 +15,7 @@ RUN apt-get clean && apt-get update && apt-get install dpkg
 RUN rm -rf /var/lib/apt/lists/* && apt-get -q update &&\
   apt-get install -qy --force-yes xvfb fontconfig bzip2 curl \
     libxss1 libappindicator1 libindicator7 libpango1.0-0 fonts-liberation xdg-utils gconf-service libgbm1 \
+    libasound2 libatk-bridge2.0-0 libgtk-3-0 libnspr4 libnss3 libxkbcommon0 \
   &&\
   apt-get clean &&\
   rm -rf /var/lib/apt/lists/* &&\
