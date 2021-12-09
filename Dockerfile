@@ -39,8 +39,8 @@ RUN mv /opt/google/chrome/google-chrome /opt/google/chrome/google-chrome.orig &&
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="$DOCKERFILE_PATH/Dockerfile" \
       org.label-schema.license="GPLv2" \
-      org.label-schema.name="Atlassian default pipeline build image with web browsers for running functional tests. Firefox ${FIREFOX_VERSION}, Google Chrome ${CHROME_VERSION}, phantomjs ${PHANTOMJS_VERSION}. Default screen resolution ${SCREEN_WIDTH}x${SCREEN_HEIGHT}x${SCREEN_DEPTH}" \
-      org.label-schema.url="https://bitbucket.org/double16/bitbucket-pipeline-browsers" \
+      org.label-schema.name="Image with web browsers for running functional tests. Firefox ${FIREFOX_VERSION}, Google Chrome ${CHROME_VERSION}, phantomjs ${PHANTOMJS_VERSION}. Default screen resolution ${SCREEN_WIDTH}x${SCREEN_HEIGHT}x${SCREEN_DEPTH}" \
+      org.label-schema.url="https://github.com/splyza/browsers-docker-image" \
       org.label-schema.vcs-ref=$SOURCE_COMMIT \
       org.label-schema.vcs-type="$SOURCE_TYPE" \
-      org.label-schema.vcs-url="https://bitbucket.org/double16/bitbucket-pipeline-browsers.git"
+      org.label-schema.vcs-url="git@github.com:splyza/browsers-docker-image.git"
